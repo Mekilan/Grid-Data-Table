@@ -321,7 +321,7 @@ class App extends Component {
                     </div>
                     <div className="col-md-6 md">
                     </div>
-                </div>
+                </div> 
                 <div className="row">
                     <div className="col-md-12 colrow">
                         <div className="card">
