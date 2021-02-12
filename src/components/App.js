@@ -6,8 +6,8 @@ import { ColumnGroup } from 'primereact/columngroup';
 import { Row } from 'primereact/row';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-//import 'primereact/resources/themes/fluent-light/theme.css'
-import 'primereact/resources/themes/arya-green/theme.css';
+import 'primereact/resources/themes/saga-blue/theme.css'
+//import 'primereact/resources/themes/arya-green/theme.css';
 import './../css/Common.css';
 
 
@@ -123,7 +123,7 @@ class App extends Component {
     actionBodyTemplate = (rowData) => {
         return (
             <React.Fragment>
-                <Button icon="pi pi-trash" className="p-button-rounded p-button-danger" onClick={() => this.confirmDeleteProduct(rowData)} />
+                <Button icon="pi pi-times" className="p-button-rounded p-button-danger timesicon" onClick={() => this.confirmDeleteProduct(rowData)} />
             </React.Fragment>
         );
     };

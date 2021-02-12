@@ -41,6 +41,15 @@
 .footper {
   margin-left: 3px;
 }
-.p-datatable .p-sortable-column:hover {
+/* .p-datatable .p-sortable-column:hover {
   background: rgb(30 30 30) !important;
+} */
+.timesicon {
+  width: 35px !important;
+  height: 33px !important;
+  background: #b3aaaa !important;
+  border: 1px solid #fff !important;
+}
+.p-button.p-button-danger:enabled:focus {
+  box-shadow: none;
 }
